@@ -4,7 +4,6 @@ i=0
 while i<len(arr):
     index= i
     j= i-1
-    t=True
     while j>=0 :
         if arr[j] > arr[index]:
             arr[j],arr[index]=arr[index],arr[j]

@@ -8,8 +8,10 @@ for i in range(max+1):
     map[i]=[]
 
 for i in arr:
-    map[i].append(i)
- 
+    if i in map:
+        map[i].append(i)
+    else:
+        map[i]=[i]
 
     
 arr=[]
