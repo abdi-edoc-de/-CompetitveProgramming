@@ -11,3 +11,4 @@ while i<len(arr):
         j-=1      
     i+=1
 print(arr)
+print(int(7//2))
